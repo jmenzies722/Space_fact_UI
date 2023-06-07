@@ -1,0 +1,78 @@
+body {
+    background-color: #0b0e1d; /*background color*/
+    color: #ffffff; /*text color*/
+    font-family: 'Montserrat', sans-serif; /*font*/
+    text-align: center; /*text alignment*/
+    height: 100vh; /*height*/
+    overflow: hidden; /*overflow*/
+  }
+  
+  header {
+    background-color: #0b0e1d; 
+    height: 30%;  /* height of header */
+    display: flex;  /* flexbox */ 
+    align-items: center; /* align items */
+    justify-content: center; /* justify content */
+    position: relative; /* position */
+  }
+  
+  
+  h1 {
+    font-size: 45px; /* font size */
+    font-weight: bold;  /* font weight */
+    text-shadow: 2px 2px #000000; /* text shadow */
+    color: #ffffff; /* text color */
+    transition: color 0.3s ease-in-out;   /* transition */
+  }
+
+  
+  h1 span {
+    font-size: 2rem;  /* font size */
+    margin-left: 0.5rem;  /* margin left */
+  }
+  
+  #picture-container {
+    height: 40%;  /* height of picture container */
+    display: flex;  /* flexbox */
+    justify-content: center;  /* justify content */
+    align-items: center;  /* align items */
+    margin-bottom: 100px; /* margin bottom */
+  }
+  
+  #picture {
+    display: block; /* display */
+    margin: 0 auto; /* margin */
+    max-width: 300%;  /* max width */
+    max-height: 100%;     /* max height */
+  }
+  
+  #generate-container {
+    height: 30%;  /* height of generate container */
+    display: flex;    /* flexbox */
+    justify-content: center;    /* justify content */
+    align-items: center;  /* align items */
+    margin-top: 20px;   /* margin top */
+    margin-bottom: 20px;  /* margin bottom */
+  }
+
+  
+  #generate {
+    background-color: #ffffff;  /* background color */
+    border: none; /* border */
+    border-radius: 5px; /* border radius */
+    color: #0b0e1d; /* text color */
+    cursor: pointer;  /* cursor */
+    font-size: 16px;  /* font size */
+    font-weight: bold;  /* font weight */
+    padding: 10px 20px; /* padding */
+    transition: background-color 0.3s ease-in-out;  /* transition */
+    
+  }
+  
+  #generate:hover {
+    background-color: gray; /* background color */
+  }
+  
+  h1:hover {
+    color: gray;  /* text color */
+  }
